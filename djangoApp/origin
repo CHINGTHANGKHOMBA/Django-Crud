@@ -1,0 +1,5 @@
+origin
+api endpoint = http://localhost:8000/category_list/
+
+ http://localhost:8000/category_list
+
