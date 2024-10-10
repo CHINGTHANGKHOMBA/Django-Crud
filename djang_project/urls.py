@@ -17,9 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from djangoApp import views
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.home ),
-    path('request_test/', views.request_handle ),
-  
+    path('', views.home ),
+    path('add_student/', views.add_student ),
+    path('update_student/', views.update_student ),
+    path('delete_student/', views.delete_student ),
 ]
+ 
